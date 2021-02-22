@@ -94,3 +94,35 @@ img {
     height: 26px;
     background-image: url('./../img/icons/mail.svg');
 }
+
+/*Body */
+.article {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.article__description {
+    max-width: 500px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(197, 140, 86);
+}
+
+.article__wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+.article__time {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.article__place{
+    text-align: left;
+}
+.article__place li {
+    max-width: 350px;
+}
+.article__description:last-child {
+    width: 500px;
+}
