@@ -2,51 +2,59 @@
 
 ## Contact
 
+---
+
 - Tel: +375298188839
 - Email: ppparfenovich@gmail.com
 
 ## Summary
 
+---
+
 I am currently looking for Front-end Developer job opportunity\ that will allow me to work a long side an expert team of\ developers, thereby helping to drive my career progression to\ more senior roles in the future.
 
 ## Career
 
-_2013 - Present:_ 
+---
+
+_2013 - Present:_
 ### Director, Shief Accountant 
-**LLC "Arshak"** 
-* Build company's busness relationships with 
+**LLC "Arshak"**
+* Build company's busness relationships with\
  suppliers, customers and employees.
 * Accounting for the company's activities.
 
-_2012-2013:_ 
+_2012-2013:_
 ### Deputy Director 
-**LLC "Belvent"** 
+**LLC "Belvent"**
 * Stage and manage new production project.
 * Build client's data base for new production.
 
-_2010-2012:_ 
+_2010-2012:_
 ### Purchasing Manager
-**Private Enterprise "Salamin"** 
+** Private Enterprise "Salamin"**
 * Purchase all materials for construction projects.
 
 ## Education
 
 _2021:_
 ### Junior Web developer
-**"It-Academy"** 
-* HTML, CSS, Javascript courses.
+**"It-Academy"**
+*HTML, CSS, Javascript courses.
 
 _2014:_
 ### Bachelor of Finance 
-**"Belarus State Economic University"** 
-* The school of Finance and Banking.
+**"Belarus State Economic University"**
+*The school of Finance and Banking.
 
 _2011:_
 ### Bachelor of Engineering
-**Vitebsk State Technological University** 
-* The school of Design and technology of clothing and footwear.
+**Vitebsk State Technological University**
+*The school of Design and technology of clothing and footwear.
 
 ## Skills
+
+---
 
 - HTML5, CSS3, Javascript
 - Intermediate English
