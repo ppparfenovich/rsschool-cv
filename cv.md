@@ -45,3 +45,8 @@ _2011:_
 ### Bachelor of Engineering
 **Vitebsk State Technological University** \
 * The school of Design and technology of clothing and footwear.
+
+## Skills
+
+- HTML5, CSS3, Javascript
+- Intermediate English
