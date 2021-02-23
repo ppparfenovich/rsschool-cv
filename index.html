@@ -13,20 +13,20 @@
                 <div class="header__img">
                     <img class="photo" src="./img/photo.jpg" title="Pavel Parfenovich" alt="Pavel Parfenovich">
                 </div>
-                <div class="contact">
+                <nav class="contact">
                     <div class="contact__info">
                         <h1 class="contact__name">Pavel Parfenovich</h1>
                         <h2 class="contact__position">Junior Javascript Developer</h2>
                     </div>
-                    <div class="contact__description">
-                        <div class="contact__description_item">
+                    <ul class="contact__description">
+                        <li class="contact__description_item">
                             <a href="tel:+375298188839" title="Phone number">+375(29)818-88-39</a>
-                        </div>
-                        <div class="contact__description_item">
+                        </li>
+                        <li class="contact__description_item">
                             <a href="mailto:ppparfenovich" title="Email">ppparfenovich@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -39,7 +39,7 @@
             <article class="article">
                 <h3 class="article__title">Career</h3>
                 <div class="article__description">
-                    <div class="article__wrapper">
+                    <section class="article__wrapper">
                         <div class="article__time">
                             <span>2013 - Present:</span>
                             <h5>LLC "Arshak"</h5>
@@ -51,8 +51,8 @@
                                 <li>Accounting for the company's activities.</li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="article__wrapper">
+                    </section>
+                    <section class="article__wrapper">
                         <div class="article__time">
                             <span>2012 - 2013:</span>
                             <h5>LLC "Belvent</h5>
@@ -64,8 +64,8 @@
                                 <li>Build client's data base for new production.</li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="article__wrapper">
+                    </section>
+                    <section class="article__wrapper">
                         <div class="article__time">
                             <span>2010 - 2012:</span>
                             <h5>Private Enterprise "Salamin"</h5>
@@ -76,13 +76,13 @@
                                 <li>Purchase all materials for construction projects.</li>
                             </ul>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </article>
             <article class="article">
                 <h3 class="article__title">Education</h3>
                 <div class="article__description">
-                    <div class="article__wrapper">
+                    <section class="article__wrapper">
                         <div class="article__time">
                             <span>2021</span>
                             <h5>Junior Web developer</h5>
@@ -93,8 +93,8 @@
                                 <li>Html5, CSS3, Javascript courses</li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="article__wrapper">
+                    </section>
+                    <section class="article__wrapper">
                         <div class="article__time">
                             <span>2014</span>
                             <h5>Bachelor of Finance</h5>
@@ -105,8 +105,8 @@
                                 <li>The school of Finance and Banking.</li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="article__wrapper">
+                    </section>
+                    <section class="article__wrapper">
                         <div class="article__time">
                             <span>2011</span>
                             <h5>Bachelor of Engineering</h5>
@@ -117,7 +117,7 @@
                                 <li>The school of Design and technology of clothing and footwear.</li>
                             </ul>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </article>
             <article class="article">
@@ -143,7 +143,35 @@
                     </ul>
                 </div>
             </article> 
+            <article class="article">
+                <h3 class="article__title">Sample JS Code</h3>
+                <div class="article__description">
+                    <code class="article__wrapper">
+                        const burgerNav = document.querySelector('.burger')
+                        burgerNav.onclick = function(){
+                        document.body.classList.toggle('burger_active');}
+                    </code>
+                </div>
+            </article> 
         </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="article">
+                <ul class="school-links">
+                    <li class="school-link">
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img src="./img/icons/rsschool.svg" alt="RSschool icon" title="RSschool icon" class="school-icon">
+                        </a>
+                    </li>
+                    <li class="school-link">
+                        <a href="#" target="_blank">
+                            <img src="./img/icons/youTube.svg" alt="YouTube icon" title="YouTube icon" class="school-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
