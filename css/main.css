@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "./normalize.css";
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    border: 2px solid #000;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: #000;
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px;
+    color: rgb(197, 140, 86);
+    margin: 10px 0;
+}
+
+h3, h4 {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h5 {
+    color: rgb(197, 140, 86);
+    margin: 16px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(197, 140, 86);
+}
+
+img {
+    display: block;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0 30px;
+    max-width: 800px;
+}
+
+/* Header */
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.contact__description {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__description_item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.contact__description [href^="tel"]::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -25px;
+    display: block;
+    width: 18px;
+    height: 29px;
+    background-image: url('./../img/icons/mobile.svg');
+}
+
+.contact__description [href^="mail"]::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -32px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url('./../img/icons/mail.svg');
+}
+
+/*Body */
+.article {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.article__description {
+    max-width: 500px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(197, 140, 86);
+}
+
+.article__wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+.article__time {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.article__place{
+    text-align: left;
+}
+
+.article__place li {
+    max-width: 350px;
+}
+
+.article__description:last-child {
+    width: 500px;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(197, 140, 86, 0.76);
+}
+
+.school-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.school-icon {
+    width: 80px;
+}
