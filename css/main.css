@@ -44,12 +44,6 @@ img {
     display: block;
 }
 
-ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 .container {
     margin: 0px auto;
     padding: 0 30px;
@@ -72,11 +66,17 @@ ul, li {
 }
 
 .contact__description {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
 .contact__description_item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     position: relative;
 }
 
